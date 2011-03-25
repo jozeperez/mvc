@@ -1,0 +1,16 @@
+[16-Mar-2011 02:02:08] PHP Fatal error:  Abstract function baseController::index() cannot contain body in /home/joze/public_html/mvc/system/baseController.class.php on line 25
+[16-Mar-2011 02:02:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid controller path: `/home/joze/public_html/mvcapplication`' in /home/joze/public_html/mvc/system/router.class.php:75
+Stack trace:
+#0 /home/joze/public_html/mvc/index.php(17): router->setPath('/home/joze/publ...')
+#1 {main}
+  thrown in /home/joze/public_html/mvc/system/router.class.php on line 75
+[16-Mar-2011 02:22:21] PHP Fatal error:  Call to private method baseController::loadModel() from context 'welcome' in /home/joze/public_html/mvc/application/welcome.php on line 12
+[16-Mar-2011 02:54:22] PHP Notice:  Undefined variable: q in /home/joze/public_html/mvc/application/welcome.php on line 27
+[16-Mar-2011 02:54:22] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/joze/public_html/mvc/application/welcome.php on line 27
+[16-Mar-2011 02:56:50] PHP Notice:  Undefined property: welcome::$welcome_model in /home/joze/public_html/mvc/application/welcome.php on line 26
+[16-Mar-2011 02:56:50] PHP Fatal error:  Call to a member function loadHymnTitles() on a non-object in /home/joze/public_html/mvc/application/welcome.php on line 26
+[16-Mar-2011 02:57:34] PHP Notice:  Trying to get property of non-object in /home/joze/public_html/mvc/model/welcome_model.php on line 13
+[16-Mar-2011 02:57:34] PHP Fatal error:  Call to a member function query() on a non-object in /home/joze/public_html/mvc/model/welcome_model.php on line 13
+[16-Mar-2011 02:59:26] PHP Notice:  Undefined property: welcome::$welcome_model in /home/joze/public_html/mvc/application/welcome.php on line 32
+[16-Mar-2011 02:59:26] PHP Fatal error:  Call to a member function loadHymnTitles() on a non-object in /home/joze/public_html/mvc/application/welcome.php on line 32
+[16-Mar-2011 03:04:22] PHP Fatal error:  Cannot override final method baseController::loadModel() in /home/joze/public_html/mvc/application/welcome.php on line 42
