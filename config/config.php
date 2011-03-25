@@ -4,9 +4,9 @@
 	
 	/*** databse configuration ***/
 	$config['db']['server'] = '';//'localhost';
-	$config['db']['username'] = '';//'joze_hymnsaccess';
-	$config['db']['password'] = '';//'hymns';
-	$config['db']['database'] = '';//'joze_hymns';
+	$config['db']['username'] = '';
+	$config['db']['password'] = '';
+	$config['db']['database'] = '';
 	$config['db']['doLoad'] = 
 		$config['db']['server'] != "" &&
 		$config['db']['username'] != "" &&
